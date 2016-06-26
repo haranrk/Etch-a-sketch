@@ -9,9 +9,10 @@ body{
 	width: 30px;
 	height: 30px;
 	background-color: #2980B9;
-	border: 0px solid #ECF0F1;
+	border: 1px solid #ECF0F1;
 	display: inline-block;
 	margin: 0px 02px 0 0;
+
 }
 
 #head >h1{
@@ -24,11 +25,18 @@ body{
 
 #head > button{
 	display: inline-block;
+	background-color: #2C3E50;
+	border: 2px solid #ECF0F1;
+	color: white;
+	padding: 5px 10px ;
+	margin: 10px;
 }
 
 #wrapper{
+	text-align: center;
 
 }
 #grid{
-margin: 0 0 0 50px;
+border: 2px solid #ECF0F1;
+display: inline-block;
 }
