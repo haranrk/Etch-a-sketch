@@ -1,15 +1,34 @@
 *{
-	font-family: 'Roboto', sans-serif;
+	
 
 }
-
+body{
+	background-color: #2C3E50;
+}
 .sq{
-	width: 50px;
-	height: 50px;
-	background-color: black;
+	width: 30px;
+	height: 30px;
+	background-color: #2980B9;
+	border: 0px solid #ECF0F1;
+	display: inline-block;
+	margin: 0px 02px 0 0;
 }
 
-h1{
-	color: gray;
+#head >h1{
+	color: #E74C3C;
+	font-size: 40px;
+	font-family: 'Roboto', sans-serif;
+	padding: 20px;
+	display: inline-block;
 }
 
+#head > button{
+	display: inline-block;
+}
+
+#wrapper{
+
+}
+#grid{
+margin: 0 0 0 50px;
+}
